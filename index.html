@@ -1,134 +1,319 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Aditya Ramadhan - Portfolio</title>
+    <title>Celerates — Belajar English Tanpa Bosan</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">Celerates</div>
+    <!-- NAVBAR -->
 
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            Celerates<span>.</span>
+        </a>
+
+        <div class="nav-menu">
+            <a href="index.html" class="active">Home</a>
+            <a href="belajar.html">Belajar</a>
+            <a href="progress.html">Progress</a>
         </div>
+
+        <a href="belajar.html" class="nav-button">
+            Mulai Belajar
+        </a>
+
     </nav>
 
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <!-- HERO -->
 
-        <div class="hero-text">
-            <p class="hello">HELLO</p>
+    <main>
 
-            <h1>UI/UX Kelompok 8</h1>
+        <section class="hero">
 
-            <h2>Student & Creative Developer</h2>
+            <div class="hero-content">
 
-            <p>
-                Kami adalah mahasiswa yang tertarik dengan teknologi,
-                desain, pemrograman, dan pengembangan game.
-            </p>
+                <div class="hero-badge">
+                    <span></span>
+                    UI/UX KELOMPOK 8
+                </div>
 
-            <a href="#projects" class="button">
-                Lihat Project
-            </a>
-        </div>
+                <h1>
+                    Belajar English.
+                    <span>Tanpa Bosan.</span>
+                </h1>
 
-    </section>
-
-
-    <!-- About -->
-    <section id="about" class="section">
-
-        <h2>About Me</h2>
-
-        <p>
-            Saya sedang belajar mengembangkan berbagai project
-            menggunakan teknologi web dan game development.
-            Saya senang mempelajari hal baru dan mencoba
-            membuat sesuatu dari ide yang saya miliki.
-        </p>
-
-    </section>
-
-
-    <!-- Projects -->
-    <section id="projects" class="section">
-
-        <h2>My Projects</h2>
-
-        <div class="projects">
-
-            <div class="project-card">
-                <h3>Portfolio Website</h3>
-
-                <p>
-                    Website portfolio sederhana menggunakan
-                    HTML dan CSS.
+                <p class="hero-subtitle">
+                    Belajar dalam sesi singkat dengan aktivitas
+                    yang lebih bervariasi dan progress yang mudah
+                    dipahami.
                 </p>
 
-                <a href="#">View Project →</a>
+                <div class="hero-actions">
+
+                    <a href="belajar.html" class="primary-button">
+                        Mulai Belajar
+                        <span>→</span>
+                    </a>
+
+                    <a href="#why" class="text-button">
+                        Kenapa Celerates?
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+                    ✓ 15 menit &nbsp; · &nbsp;
+                    ✓ Aktivitas bervariasi &nbsp; · &nbsp;
+                    ✓ Progress jelas
+                </div>
+
             </div>
 
 
-            <div class="project-card">
-                <h3>Unity Game</h3>
+            <!-- HERO PREVIEW -->
 
-                <p>
-                    Project game yang dibuat menggunakan
-                    Unity dan C#.
+            <div class="hero-visual">
+
+                <div class="preview-card">
+
+                    <div class="preview-header">
+
+                        <div>
+                            <small>
+                                TODAY'S SESSION
+                            </small>
+
+                            <h3>
+                                Daily English
+                            </h3>
+                        </div>
+
+                        <span>
+                            15 min
+                        </span>
+
+                    </div>
+
+
+                    <div class="preview-progress">
+
+                        <div>
+                            <span>Session Progress</span>
+                            <strong>70%</strong>
+                        </div>
+
+                        <div class="progress-track">
+                            <div style="width:70%;"></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="preview-list">
+
+                        <div class="preview-item done">
+                            <b>✓</b>
+
+                            <div>
+                                <strong>Vocabulary</strong>
+                                <small>Completed</small>
+                            </div>
+                        </div>
+
+
+                        <div class="preview-item done">
+                            <b>✓</b>
+
+                            <div>
+                                <strong>Listening</strong>
+                                <small>Completed</small>
+                            </div>
+                        </div>
+
+
+                        <div class="preview-item current">
+                            <b>→</b>
+
+                            <div>
+                                <strong>Speaking</strong>
+                                <small>Next activity</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WHY -->
+
+        <section id="why" class="landing-section">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    WHY CELERATES?
                 </p>
 
-                <a href="#">View Project →</a>
+                <h2>
+                    Belajar bahasa tidak harus
+                    <span>terasa membosankan.</span>
+                </h2>
+
+                <p>
+                    Celerates dirancang berdasarkan masalah yang
+                    dialami self-taught learner: aktivitas yang
+                    repetitif dan progress yang sulit terlihat.
+                </p>
+
             </div>
 
 
-            <div class="project-card">
-                <h3>Arduino Project</h3>
+            <div class="problem-grid">
 
-                <p>
-                    Project elektronik menggunakan Arduino
-                    dan berbagai sensor.
-                </p>
+                <div class="problem-card">
 
-                <a href="#">View Project →</a>
+                    <span class="number">
+                        01
+                    </span>
+
+                    <h3>
+                        Aktivitas Tidak Monoton
+                    </h3>
+
+                    <p>
+                        Belajar dengan berbagai jenis aktivitas
+                        agar sesi belajar tidak terasa seperti
+                        mengulang hal yang sama.
+                    </p>
+
+                </div>
+
+
+                <div class="problem-card">
+
+                    <span class="number">
+                        02
+                    </span>
+
+                    <h3>
+                        Progress Lebih Jelas
+                    </h3>
+
+                    <p>
+                        Pengguna dapat melihat perkembangan
+                        kemampuan English mereka dengan lebih mudah.
+                    </p>
+
+                </div>
+
+
+                <div class="problem-card">
+
+                    <span class="number">
+                        03
+                    </span>
+
+                    <h3>
+                        Sesi Singkat
+                    </h3>
+
+                    <p>
+                        Sesi sekitar 15 menit cocok untuk belajar
+                        di sela aktivitas kuliah.
+                    </p>
+
+                </div>
+
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- Contact -->
-    <section id="contact" class="section contact">
+        <!-- CTA -->
 
-        <h2>Let's Work Together</h2>
+        <section class="landing-cta">
 
-        <p>
-            Tertarik untuk berdiskusi atau bekerja sama?
-        </p>
+            <div>
 
-        <a href="mailto:email@example.com" class="button">
-            Contact Me
-        </a>
+                <p class="section-label">
+                    START LEARNING
+                </p>
 
-    </section>
+                <h2>
+                    Mulai belajar dan
+                    <span>lihat perkembanganmu.</span>
+                </h2>
+
+                <p>
+                    Tidak perlu belajar berjam-jam.
+                    Mulai dengan 15 menit hari ini.
+                </p>
+
+                <a href="belajar.html" class="primary-button">
+                    Mulai Belajar
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
 
 
-    <!-- Footer -->
+    <!-- FOOTER -->
+
     <footer>
-        <p>© 2026 Aditya Ramadhan. All Rights Reserved.</p>
+
+        <div class="footer-content">
+
+            <div>
+
+                <a href="index.html" class="footer-logo">
+                    Celerates<span>.</span>
+                </a>
+
+                <p>
+                    Belajar English tanpa bosan,
+                    berkembang dengan jelas.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+                <a href="belajar.html">Belajar</a>
+                <a href="progress.html">Progress</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            © 2026 Celerates — Kelompok 8 UI/UX
+
+        </div>
+
     </footer>
 
 </body>
+
 </html>
